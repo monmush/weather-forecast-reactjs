@@ -1,3 +1,18 @@
+i{
+    font-size: 3em;
+
+}
+
+h5{
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 2em;
+}
 .weather-widget{
     width: 100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,9 +50,16 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.extends{
+    display: flex;
+    flex-direction: row;
+}
+.small-card i{
+    font-size: 2em;
+}
 .small-card{
     text-align: center;
-    width: 10vw;
+    width: 20%;
     background-color:#F4D35E;
     border-radius: 5%;
     padding: .3em;
@@ -48,7 +70,6 @@
     position: absolute;
     top: 50%;
     transform: translate(5%,-50%);
-    border-radius: 5%;
 }
 .extended-card{
     display: flex;
@@ -58,11 +79,4 @@
 .small-card p {
     margin-top: .7em;
     font-weight: 700;
-}
-i{
-    font-size: 3em;
-}
-h5{
-    font-weight: 700;
-    margin-bottom: 1em;
 }

@@ -1,17 +1,14 @@
 import React from 'react';
 import '../style/export.scss';
-import {BrowserRouter, Route} from 'react-router-dom';
 import Cards from '../component/Cards'
-import ExtendedCard from '../component/ExtendedCard';
+
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="App">
+      <h1>Weather Forecast</h1>
+        <Cards/>
       </div>
-      <Route path="/" exact component={Cards}/>
-      <Route path="/monday" component={ExtendedCard}/>
-    </BrowserRouter>
   );
 }
 
